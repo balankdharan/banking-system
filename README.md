@@ -52,5 +52,8 @@ Contributions are welcome! Follow these steps to contribute:
 5. Open a Pull Request.
 
 
+## Testing URL
+
+https://bangingmanagement.000webhostapp.com/
 
 ---

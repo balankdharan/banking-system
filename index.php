@@ -19,7 +19,7 @@
             <div class="container">
                 <div class="navbar-header">
                     
-                    <a class="navbar-brand" href="index.html">  Sparks Bank <span class="glyphicon glyphicon-bitcoin"></span></a>
+                    <a class="navbar-brand" href="index.php">  Sparks Bank <span class="glyphicon glyphicon-bitcoin"></span></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">

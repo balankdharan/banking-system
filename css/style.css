@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #f4f6f8;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-inverse {
+    background-color: #1a2540;
+    border-color: #10182c;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #cfd8ea;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+
+#banner_image {
+    background: linear-gradient(135deg, #1a2540 0%, #2c3e70 100%);
+    color: #ffffff;
+    padding: 80px 0;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#banner_image .container {
+    width: 100%;
+}
+
+#banner_content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#banner_content .btn {
+    min-width: 220px;
+    margin: 8px 0;
+}
+
+.container h2 {
+    color: #1a2540;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.table {
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.roundedCorners {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #1a2540;
+    color: #ffffff;
+}
+
+.button, .btn-danger {
+    background-color: #e8491d;
+    border-color: #e8491d;
+}
+
+.button:hover, .btn-danger:hover {
+    background-color: #c93c15;
+    border-color: #c93c15;
+}
+
+footer {
+    background-color: #1a2540;
+    color: #cfd8ea;
+    padding: 20px 0;
+    flex-shrink: 0;
+}
+
+footer p {
+    margin: 0;
+}
